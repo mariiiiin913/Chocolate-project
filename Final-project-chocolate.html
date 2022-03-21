@@ -1,0 +1,123 @@
+<!DOCTYPE html>	
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Swiss chocolate</title>
+	</head>
+	<body>
+	<style>
+	body {
+	background: linear-gradient(rgb(129, 0, 0), rgb(210, 11, 11));
+	margin: 0;
+	}
+	h1 {
+	color: rgb(238, 235, 221);
+	font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
+	font-size: 35px;
+	text-align: center;
+	}
+	h2 {
+	background-color: rgb(206, 18, 18);
+	color: rgb(238, 235, 221);
+	font-size: 30px;
+	font-family: fantasy;
+	margin-bottom: 40px;
+	padding: 10px;
+	text-align: center;
+	}
+	img {
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+	}
+	p {
+	color: rgb(238, 235, 221);
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+	}
+	a {
+	cursor: pointer;
+	color: rgb(254, 237, 153);
+	display: block;
+	font-family: cursive;
+	text-align: center;
+	}
+	div {
+	color: rgb(45, 1, 1);
+	font-weight: lighter;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 4.5em;
+	}
+	button {
+	background-color: rgb(45, 1, 1);
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 1px black;
+	color: rgb(238, 235, 221);
+	display: block;
+	font-size: 18px;
+	font-family: fantasy;
+	margin: 0 auto;
+	padding: 20px;
+	}
+	button:hover {
+	background: rgb(238, 235, 221);
+	color: red;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	}
+	.swisschocolate {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	}
+	</style>
+	<h1>The best chocolate in the world 🌏　</h1>
+	<h2>Swiss chocolate🇨🇭</h2>
+	<img
+	src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/361/original/Fotolia_43600946_XS.jpeg?1625475221
+	alt="swiss chocolate" >
+	<br />
+	<hr />
+	<p>
+	<span class="swisschocolate">Swiss chocolate</span> is chocolate produced
+	in Switzerland. While cacao beans and other ingredients such as sugar can
+	originate from outside Switzerland, the actual production of the chocolate
+	must take place in Switzerland. Switzerland's chocolates have earned an
+	international reputation for high quality with many famous international
+	chocolate brands.
+	</p>
+	<a href="https://en.wikipedia.org/wiki/Swiss_chocolate" target="_blank">
+	Lern more on Wikipedia 📖💡
+	</a>
+	<br />
+	<br />
+	<button><strong>Shop now 🍫</strong></button>
+	<div><em>Designed by Marin Rei 🇯🇵</em></div>
+	<script>
+	function buyChocolates() {
+	let firstName = prompt("What is your first name?");
+	let age = prompt("What is your age?");
+	let heading = document.querySelector("h1");
+	if (age >= 18) {
+	heading.innerHTML =
+	"Hi " +
+	firstName +
+	"! Welcome to the chocolate world, enjoy shopping! 😋";
+	} else {
+	heading.innerHTML =
+	"Sorry, " +
+	firstName +
+	". You can't buy liquor filled chocolates! 😢 ";
+	}
+	}
+	let buyButton = document.querySelector("button");
+	buyButton.addEventListener("click", buyChocolates);
+	</script>
+	</body>
+	</html>
