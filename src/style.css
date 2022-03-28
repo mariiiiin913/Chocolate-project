@@ -1,0 +1,68 @@
+body {
+	background: linear-gradient(rgb(129, 0, 0), rgb(210, 11, 11));
+	margin: 0;
+	}
+	h1 {
+	color: rgb(238, 235, 221);
+	font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
+	font-size: 35px;
+	text-align: center;
+	}
+	h2 {
+	background-color: rgb(206, 18, 18);
+	color: rgb(238, 235, 221);
+	font-size: 30px;
+	font-family: fantasy;
+	margin-bottom: 40px;
+	padding: 10px;
+	text-align: center;
+	}
+	img {
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+	}
+	p {
+	color: rgb(238, 235, 221);
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+	}
+	a {
+	cursor: pointer;
+	color: rgb(254, 237, 153);
+	display: block;
+	font-family: cursive;
+	text-align: center;
+	}
+	div {
+	color: rgb(45, 1, 1);
+	font-weight: lighter;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 4.5em;
+	}
+	button {
+	background-color: rgb(45, 1, 1);
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 1px black;
+	color: rgb(238, 235, 221);
+	display: block;
+	font-size: 18px;
+	font-family: fantasy;
+	margin: 0 auto;
+	padding: 20px;
+	}
+	button:hover {
+	background: rgb(238, 235, 221);
+	color: red;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	}
+	.swisschocolate {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	}
